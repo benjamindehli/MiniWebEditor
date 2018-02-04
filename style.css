@@ -3,7 +3,7 @@ body {
 	overflow: hidden;
 }
 
-#content{
+#html{
 	position: absolute;
 	height: 50%;
 	width: 100%;
@@ -22,8 +22,8 @@ textarea.editor{
 	color: #fff;
 	bottom: 0;
 	resize: none;
-    padding: 4px;
-    box-sizing: border-box;
+	padding: 4px;
+	box-sizing: border-box;
 }
 
 textarea.editor.html{
