@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+#content{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	overflow: auto;
+}
+
+textarea.editor{
+	background-color: #162028;
+	color: #fff;
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	border: none;
+	font-family: monospace;
+	font-size: 16pt;
+	color: #fff;
+	bottom: 0;
+	resize: none;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+textarea.editor.html{
+	left: 0;
+}
+
+textarea.editor.css{
+	left: 50%;
+	border-left: 1px solid #243442;
+}
+
+textarea.editor:focus {
+	outline: none;
+}
+
+span.editor-type {
+	position: absolute;
+	width: 40px;
+	text-align: center;
+	line-height: 16px;
+	bottom: calc(50% - 16px);
+	left: calc(50% - 40px);
+	color: rgba(255,255,255, .4);
+	background: rgba(255,255,255, .1);
+	z-index: 2;
+	font-family: arial, verdana;
+	font-size: 8pt;
+	bottom: calc(50% - 16px);
+}
+span.editor-type.html {
+	left: calc(50% - 40px);
+}
+span.editor-type.css {
+	left: calc(100% - 40px);
+}

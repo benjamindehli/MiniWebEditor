@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini web editor</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<style id="css"></style>
+	<div id="html"></div>
+	<textarea id="htmlEditor" class="editor html" onkeyup="updateDOMElement(event, 'html')"></textarea><span class="editor-type html">HTML</span>
+	<textarea id="cssEditor" class="editor css" onkeyup="updateDOMElement(event, 'css')"></textarea><span class="editor-type css">CSS</span>
+	<script src="script.js"></script>
+</body>
+</html>
